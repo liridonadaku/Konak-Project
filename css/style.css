@@ -1,0 +1,675 @@
+#main {
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+.container {
+    width: 1214px;
+    margin: 0 auto;
+
+}
+
+    .main_banner {
+        float: left;
+        width: 100%;
+        height: 637px;
+        position: relative;
+        background: url('../img/banner.jpg') no-repeat;
+        background-size: cover;
+    }
+    
+    .main_banner .bg_overlay {
+        top: 0;
+        left: 0;
+        float: left;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: rgba(246,246,246,0.6);
+    }
+    
+    .main_banner_content {
+    
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      text-align: center;
+      padding-top: 157px;
+      padding-bottom: 260px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .main_banner_content h2 {
+    
+      line-height: 60px;
+      margin: 0;
+      font-size: 113px;
+      color: #24449d ;
+    }
+    
+    .main_banner_content h4 {
+    
+      font-family: 'Montserrat Bold';
+      font-size: 28px;
+      color: #24449d ;
+      margin-bottom: 25px;
+    }
+    
+    .main_banner_play {
+    
+        margin-top: 100px;
+    
+    }
+    
+    #descript_video {
+    
+        color: rgb(60, 60, 60);
+
+    }
+
+   
+    .main_paragraphs_holder {
+        /* width: calc(100% - 220px); */
+            float: left;
+            width: 100%;
+            padding-top: 55px;
+            background: #f6f6f6;
+            padding-bottom: 50px;
+    }
+    
+    .main_paragraph {
+        float: left;
+        color: #8b8b8b ;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 40px;
+        /* width: calc(100% - 220px); */
+        width: 70%;
+    }
+    .main_paragraph b {
+        color: #555555 ;
+    }
+
+
+    .casja_main_holder {
+        float: left;
+        width: 100%;
+        background-color: #fff;
+           
+    }
+    
+    
+    .casja_main_holder h2 {
+        font-size: 53px;
+        color: #333333;
+    }
+    
+    .casja_main_holder .row {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+    
+    .casja_items_holder {
+        float: left;
+        width: 100%;    
+        padding-bottom: 50px;
+        margin-bottom: 45px;
+        border-bottom: 1px solid #dddddd;
+    }
+    
+    .casja_item {
+        float: left;
+        width: 20%;
+        padding-left: 68px;
+        padding-right: 30px;
+        box-sizing: border-box;
+        
+        padding-left: 30px;
+        padding-right: 30px;
+        box-sizing: border-box;
+    }
+    
+    .casja_item_icon {
+        float: left;
+        width: 100%;
+        height: 85px;
+        margin-bottom: 10px;
+        
+    }
+
+.casja_item_conten{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;}
+
+
+    .description_values {
+        float: left;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .item_description {
+        width: 25%;
+        float: left;
+        padding-right: 84px;
+        padding-left: 84px;
+        box-sizing: border-box;
+    }
+    
+    .value_item {
+           width: 25%;
+           float: left;
+           box-sizing: border-box;
+    }
+    
+    .description_values  h3 {
+        font-size: 31px;	
+    }
+
+    .description_values p{
+      font-size: 40px;
+    }
+
+    .description_values h4{
+        
+        font-size: 15px;
+        
+    }
+    .value_heading {
+        margin-bottom: -20px;
+    }
+    
+
+
+#list1 .icons{
+    width: 100px;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#part3 {
+    float: center;
+    padding-top: 6px;
+    text-align: left;
+    display: inline-block;
+    margin-top: 15px;  
+}
+.part3 h4 {
+    font-size: 28px;
+}
+
+#list2 .icons2{
+    width: 240px;
+    display: inline-block;
+}
+#list2 h3{
+    font-size: 34px;
+
+}
+#list2 p{
+    font-size: 30px;
+}
+
+
+.investment_main {
+    float: left;
+    width: 100%;
+    background-color: #28282e ;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.investment_main h2 {
+    font-size: 53px;
+    color: #ffffff ;
+    padding-bottom: 30px;
+}
+
+
+.row_investment {
+    margin-left: -7px;    
+    margin-right: -8px;    
+}
+
+
+.investment_item {
+    width: 25%;
+    float: left;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 7px;
+    box-sizing: border-box;  
+}
+.investement_item_container {
+    width: 100%;
+    float: left;
+    height: 620px;
+    position: relative;
+}
+
+#bg-1 .investement_item_container {
+    background: url('../img/image1.png') no-repeat;
+    background-size: cover;
+}
+#bg-2 .investement_item_container {
+    background: url('../img/image2.png') no-repeat;
+    background-size: cover;
+}
+#bg-3 .investement_item_container {
+    background: url('../img/image3.png') no-repeat;
+    background-size: cover;
+}
+#bg-4 .investement_item_container {
+    background: url('../img/image4.png') no-repeat;
+    background-size: cover;
+}
+
+
+.investment_items .investement_item_container{
+    position: relative;
+    overflow: hidden;
+}
+
+.investment_section .investment_bg_overlay{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30,54,107,0.80);
+    transition: bottom .3s ease-out;
+
+}
+
+
+
+.investment_items img {
+    width: 100%;
+    height: auto;
+}
+
+
+.prishtina_overlay{
+    float: left;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0px;
+
+}
+.prishtina_overlay h3{
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 36px;
+}
+
+.prishtina_overlay h5{
+    text-align: center;
+    font-size: 28px;
+    color: #4175e0;
+}
+.investement_item_container:hover  .prishtina_overlay{
+    opacity: 0;
+    z-index: 1;
+    transition: opacity .3s ease-in-out;
+}
+
+.investment_items .investement_item_container:hover .investment_bg_overlay {
+    opacity: 0;
+    z-index: 1;
+    transition: opacity .3s ease-in-out;
+
+    
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    z-index: 1;
+    -webkit-transition: opacity .3s ease-in-out;
+    transition: opacity .3s ease-in-out;
+}
+
+
+.div_link_hover{
+    
+    width: 100%;
+    float: left;
+    opacity: 0;
+    color: black;
+    background-color: white;
+    
+    transition: opacity .3s ease-in-out;
+}
+
+.div_link_hover_line {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+
+.div_link_hover_holder {
+    top: 50%;
+    left: 50%;
+    float: left;
+    width: 100%;
+    position: absolute;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+    padding-bottom: 73px;
+    transform: translate(-50%,-50%);
+}
+
+.investement_item_container:hover .div_link_hover {
+    opacity: 1;
+       transition: opacity .3s ease-in-out;
+}
+
+.div_link_hover div:last-child {
+
+    margin-bottom: 0;
+}
+
+.div_link_hover h4{
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 25px;
+
+}
+
+.div_link_hover h5{
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    
+}
+
+.team_container {
+    float: left;
+    width: 100%; 
+
+}
+
+.team_row_holder {
+    width: 50%;
+    float: left;
+    height: auto;
+    padding-left: 8px;
+    padding-right: 7px;
+    box-sizing: border-box;
+    padding-top: 30px; 
+    padding-bottom: 32px;
+    line-height: 22px;
+} 
+
+.team_row_holder #ekipi_jone{
+    width: 50%;
+    float: left;
+    font-size: 35px;
+    height: auto;
+    margin-top: -10px;
+}
+ .team_paragraph{
+    width: 30%;
+    float: left;
+    padding-top: 30px;
+    
+}
+
+#choose_team {
+    margin-bottom: 40px;
+    text-align: center;
+    float: left;
+    width: 100%;
+}    
+#choose_team select {
+ width: 25%;
+ border: 1px solid;
+ padding: 10px;
+ border-radius: 35px; 
+ }
+
+.insert_content input {
+    width: 60%;
+    height: 28px;
+}
+
+.part_bashkpunoni{
+    float: left;
+    width: 100%;
+    background-color: #24449d;
+}
+
+.part_bashkpunoni_heading{
+  text-align: center;
+  font-size: 24px;
+  padding: 2px;
+  text-transform: uppercase;
+  color: #fff;
+
+}
+
+.contact {
+    float: left;
+    width: 100%;
+    background-color: #24449d;
+    padding-top: 35px;
+    padding-bottom: 85px;
+}
+
+.contact_us h2 {
+    font-size: 53px;
+    color: white;
+    text-align: center;
+}
+
+.required_filds{
+    text-align: right;
+}
+
+.required_filds select {
+    width: 63%;
+    height: 34px;
+}
+.contact_form {
+    float: left;
+    width: 100%;
+    background-color: #203d8e;
+    padding-top: 65px;
+    padding-bottom: 40px;
+}
+
+.contact_row {
+    margin-left: 172px;
+    margin-right: 172px;
+}
+
+#message {
+    float: left;
+    width: 100%;
+    margin-left: 20px;
+ }
+ 
+.contact_item_content .insert_content {
+    
+    width: 50%;
+    float: left;
+    height: auto;
+}
+
+.insert_content input {
+    width: 62%;
+    height: 29px;
+}
+
+textarea{
+    resize: none;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.submit_button{
+    text-align: center;
+    border: none;
+    float: left;
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px; 
+    }
+
+.submit_button button{
+    background-color: #24449d;
+    color: #fff;
+    font-size: 20px;
+    padding: 19px 51px;
+    border: none;
+    cursor: pointer;  
+}
+.contact_footer{
+    float: left;
+    width: 50%;
+    background-color: #28282e;
+    position: relative;
+}
+.wrapper_contakt{
+    width: 607px;    
+    float: right;
+    margin: 0 auto;
+}
+
+
+
+.contact_footer h2{
+    text-transform: uppercase;
+    margin: 0px;
+    padding-top: 96px; 
+    padding-bottom: 90px; 
+    font-size: 53px;
+     color: #fff;
+}
+
+.contact_footer h5{
+    font-size: 18px;
+    margin: 0px;
+    color: #fff;
+}
+
+.contact_footer p{
+    margin: 0px;
+    padding-bottom: 30px;
+     color: #79797b;
+     line-height: 20px;
+}
+
+
+#nr{
+    margin: 0px;
+    font-size: 24px;
+    color: #79797b;
+   }
+
+#info{
+    margin: 0px;
+    font-size: 18px;
+}
+#info a{
+    color: #79797b;
+} 
+.message{
+    width: 194px;
+    float: left;
+    margin-bottom: 120px;
+    margin-right: 130px;
+    margin: 0px;
+    border: 1px solid #32b1ec; 
+ }
+
+.messenger{
+    float: left;
+    padding: 5px;
+}
+
+.message_us h5{
+        font-size: 18px;
+        float: left;
+        padding: 16px;
+
+}
+
+
+ul {
+    list-style-type: none;
+    }
+
+a {
+    text-decoration: none;
+     }
+
+.social_media {
+    margin-top: 120px;
+    margin-bottom: 143px;
+}
+
+.social_media li {
+    display: inline-block;
+    margin-right: 66px;
+}
+
+.social_media li:first-child {
+    margin-left: -40px;
+}
+
+    
+
+.contact_footer::after {
+content: '';
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 70px 0 0 70px;
+border-color: transparent transparent transparent #28282e;
+position: absolute;
+bottom: 0px;
+right: -70px;
+z-index: 1;
+}
+ 
+
+#map {
+    
+    width: 674px;
+    width: 50%;
+    height: 735px;
+
+    }
+
+.casja_main_holder hr{
+    width: 30px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 6px;
+    height: 1px;
+    background-color: #333333;
+   }
+
+   .investment_main hr{
+    width: 30px;
+    float: left;
+    margin-top: -60px;
+    background-color: #fff;
+   }
+
+  .team{
+      float: left;
+      width: 100%;
+      background-color: #fff;
+  }

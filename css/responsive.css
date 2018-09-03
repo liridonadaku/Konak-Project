@@ -1,0 +1,145 @@
+
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+    .main{
+     overflow: hidden;
+    }
+	.container{	
+	    float: left;	
+		width: 100%;
+	}
+	    .main_paragraph {
+        width: 100%; 
+        float: left;
+        margin-left: 10px;
+    }
+
+    .casja_main_holder h2{
+        font-size: 48px;
+        margin-left: 10px;
+    }
+
+    .casja_item{
+    	float: left;
+    	width: 100%;
+    	text-align: center;
+    }
+    .description_values h4{
+    	font-size: 37px;
+        margin-top: -15px;
+        margin-left: 10px;
+    }
+
+    .value_item{
+    	float: left;
+    	width: 100%;
+   		text-align: center;
+   		margin-top: -40px;
+    }
+    .description_values p{
+        font-size: 35px;
+        margin-top: 8px;
+    }
+    
+ 	.description_values h3{
+ 		font-size: 40px;
+ 	}
+
+ 	.investment_main h2{
+ 		font-size: 45px;
+ 		text-align: center;  	
+ 	}
+
+ 	.investment_item{
+ 		float: left;
+    	width: 100%;
+    	margin-bottom: 15px;
+    	padding: 0px 25px;	
+     }
+     .team_row_holder{
+      padding-bottom: 0;
+     }
+     .team_container{
+         width: 100%;
+         float: left;
+     }
+     .team_container .team_row_holder{
+      width: 100%;
+     }
+     .team_row_holder #ekipi_jone {
+         width: 100%; 
+     }
+     .team_row_holder #ekipi_jone p{
+        margin-bottom: 0;         
+    }
+    #choose_team select{
+        width: 96%;
+    }
+     .team_paragraph{
+         width: 100%; 
+         padding-top: 0;
+     }
+     .team_paragraph p{
+         margin-left: 10px;
+     }
+     .contact_row{
+         margin-left: 10px;
+         margin-right: 10px;
+     } 
+     .contact_item_content .insert_content{
+       width: 100%; 
+       margin-bottom: 20px; 
+     }
+     .required_filds{
+         text-align:left;
+     } 
+     .required_filds input{
+         width: 85%;
+     }
+     .required_filds select{
+         width: 85%;
+     } 
+     .contact_footer{
+         width: 100%;
+     }
+     .wrapper_contakt{
+         width: 100%;
+         margin-right: -10px; 
+     }
+     #message{
+         margin-left: 0;
+     }
+     .submit_button {
+         text-align: left; 
+     }
+     #map {
+         width: 100%; 
+     }
+     .contact_footer::after{
+         display: none; 
+     }
+
+ }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100%;
+    }
+    .main_paragraph {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1220px) {
+    .container {
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 375px) and (max-width: 667px) {
+    .main_paragraph {
+        width: 100%;
+    }
+}
+
+ 
